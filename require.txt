@@ -4,3 +4,16 @@ pdfplumber==0.11.4
 llama_index==0.11.22
 llama_index_llms_ollama==0.3.6
 langchain==0.3.7
+unstructured==0.16.5
+pi_heif==0.20.0
+unstructured_inference==0.8.1
+pdf2image==1.17.0
+unstructured.pytesseract==0.3.13
+tesseract-ocr==0.0.1
+pytesseract==0.3.13
+langchain-huggingface
+langchain_experimental 
+llama-index-embeddings-huggingface
+llama-index-embeddings-openai
+
+

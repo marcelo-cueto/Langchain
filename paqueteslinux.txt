@@ -1,0 +1,2 @@
+apt-get install poppler-utils
+apt install tesseract-ocr
