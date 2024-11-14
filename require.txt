@@ -1,5 +1,5 @@
-ollama==0.3.3
-transformers=4.44.2
+ollama
+transformers==4.44.2
 pdfplumber==0.11.4
 llama_index==0.11.22
 llama_index_llms_ollama==0.3.6
@@ -15,5 +15,6 @@ langchain-huggingface
 langchain_experimental 
 llama-index-embeddings-huggingface
 llama-index-embeddings-openai
-
-
+llama-index-llms-ollama
+llama_index
+langchain_openai

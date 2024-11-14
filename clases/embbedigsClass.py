@@ -114,9 +114,9 @@ class Embbedings:
             if self.framework=='langchain':
 
                 self.embeddings = HuggingFaceEmbeddings(
-                    model_name="sentence-transformers/all-mpnet-base-v2"
-                    model_kwargs=self.device
-                    encode_kwargs=self.normalize_embeddings
+                    model_name="sentence-transformers/all-mpnet-base-v2",
+                    model_kwargs=self.device,
+                    encode_kwargs=self.normalize_embeddings,
                     )
             else:
                 Settings.embed_model = HuggingFaceEmbedding(
